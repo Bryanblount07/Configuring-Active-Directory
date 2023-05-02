@@ -74,10 +74,10 @@ Go back to client-1 remote desktop, go to start & search Command line. type ping
 <br />
 
 <p>
-<img src="https://i.imgur.com/Pgdl9dS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/W6UwAOv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next were going to download the PHP 7.3.8 file & move all files to the PHP file we created in file explorer (Like in the image above). 
+Open up another remote desktop. Go to your virtual machine and click DC-1 & copy public IP Address and paste DC-1 address in and connect. Put in the username & password you created when you made the VM & log in.
 </p>
 <br />
 
