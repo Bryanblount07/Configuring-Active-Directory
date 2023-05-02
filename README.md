@@ -29,7 +29,7 @@ This tutorial outlines Active Directory from start to finish. From installing to
 <img src="https://imgur.com/8YRlzfs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In Microsoft Azure search "Resource Group" click on it and click create.
+In Microsoft Azure search "Virtual Machine" & click create. Create a resource group named AD-Lab. Name the VM DC-1 & Choose your region. Find and  select windows server 2022. scroll down and create user name, password & Click Create.
 </p>
 <br />
 
