@@ -93,15 +93,15 @@ Now we're going to install Active Directory Domain Serves. Open DC-1 VM. Go to s
 <img src="https://imgur.com/NbB6CO7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In your DC-1 you will see an Flag with a caution triangle on it at the top right of the screen. Click it and add domain. Click on add new forest and name your domain anything you want. Give a password and click next. Next through everything and install. It should restart. Just log back in.
+In your DC-1 you will see an Flag with a caution triangle on it at the top right of the screen. Click it and add domain. Click on add new forest and name your domain anything you want. Give a password and click next. Next through everything and install. It should restart. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/YmmvaOb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/DbRivFS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Once open click on PHP Manager, click register new PHP Version, select the 3 dots[...], find the PHP folder we created in our C: Drive & then select the PHP-cgi file and select ok. After that restart it. The restart is on the right side in the Manager Server.
+When you log back in you'll need to use your domain controller name. ex: i use mydomain.com. So my user name will be mydomain.comLabuser then the password.
 </p>
 <br />
 
