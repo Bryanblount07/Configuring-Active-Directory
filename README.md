@@ -77,7 +77,7 @@ Go back to client-1 remote desktop, go to start & search Command line. type ping
 <img src="https://imgur.com/W6UwAOv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open up another remote desktop. Go to your virtual machine and click DC-1 & copy public IP Address and paste DC-1 address in and connect. Put in the username & password you created when you made the VM & log in.
+Open up another remote desktop. Go to your virtual machine and click DC-1 & copy public IP Address and paste DC-1 address in and connect. Put in the username & password you created when you made the VM & log in. 
 </p>
 <br />
 
@@ -85,7 +85,7 @@ Open up another remote desktop. Go to your virtual machine and click DC-1 & copy
 <img src="https://i.imgur.com/c3B7zum.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Download My SQL and run the install & at the end make sure the [lauch] is checked so its launched when done installing.It launch another intall and you want to click nect until then Click on [Standard Configuration]. Once you get to the point where you create a  password. Use Password1 for the password [or create your own]. You want to write this on your note pad to remember. hit next and exucute. should look like photo when done.
+Now we're going to install Active Directory Domain Serves. Open DC-1 VM. Go to start and click on service manager. click on add roles & features,  
 </p>
 <br />
 
