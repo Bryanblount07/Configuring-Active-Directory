@@ -82,18 +82,18 @@ Open up another remote desktop. Go to your virtual machine and click DC-1 & copy
 <br />
 
 <p>
-<img src="https://i.imgur.com/c3B7zum.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/undefined.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now we're going to install Active Directory Domain Serves. Open DC-1 VM. Go to start and click on service manager. click on add roles & features,  
+Now we're going to install Active Directory Domain Serves. Open DC-1 VM. Go to start and click on service manager. click on add roles & features, Click next unti you get to server roles & add Active Directory Domain Services. Next through everything and install.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/kMY3Q92.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/NbB6CO7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In your VM go to your windows search bar [not your browser] then type in [IIS] right click and run as administrator.
+In your DC-1 you will see an Flag with a caution triangle on it at the top right of the screen. Click it and add domain. Click on add new forest and name your domain anything you want. Give a password and click next. Next through everything and install. It should restart. Just log back in.
 </p>
 <br />
 
