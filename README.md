@@ -101,7 +101,7 @@ In your DC-1 you will see an Flag with a caution triangle on it at the top right
 <img src="https://imgur.com/DbRivFS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-When you log back in you'll need to use your domain controller name. ex: i use mydomain.com. So my user name will be mydomain.comLabuser then the password.
+When you log back in you'll need to use your domain controller name. ex: i use mydomain.com. So my user name will be mydomain.com\Labuser then the password.
 </p>
 <br />
 
