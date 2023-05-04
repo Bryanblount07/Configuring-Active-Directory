@@ -106,26 +106,26 @@ When you log back in you'll need to use your domain controller name. ex: i use m
 <br />
 
 <p>
-<img src="https://i.imgur.com/0YSEVv0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/undefined.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-So now you want to go back to the google drive files and downlaod the os-ticet file. Open the os-ticket file & also open another file explorer to transfer the [upload] file from the os-Ticket folder into your c:\inetpub\wwwroot. Then rename the upload folder to "osTicket" [with no spaces] . Then go back to the IIS manager and hit restart again.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/upbZ4yi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Inside ISS Manager go to sites -> Default -> os-Ticket, Dobuble click PHP Manger, Click [Enable or disable an extension]. Enable : php_imap.dll, php_intl.dll, php_opcache.dll. Then refresh osTicket in your browser. The red X's should turn green & the bottom 2 should still be red.
+Now where going to create a couple of organizational units in Active Directory. In your DC-1 bring up your server manager and go to tools. Click Active Directory Users & Computers. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/SgrNirI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/HGuxuI4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open your file explorer, go to your C: Drive, inetpub, wwwroot, include & find file ost-sampleconfig.php & change to ost-config.php. Then right click on that same file and go to properties, security, advance then disable inheritence. Click remove all inherited permissions from this project. Then click add permissions, click select principal. type everyone and click check names. Then give everyone full control. click ok, apply & then ok.
+Inside your Active Directory go to mydomain.com, right click, got to new, click organizational unit. Make another one called Admins.
+</p>
+<br />
+
+<p>
+<img src="https://imgur.com/jz77uzg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Now im going to add a new user Jane Doe in my admin unit. Right click and select new. To make it a admin I have to assign it. Right click on the Jane Doe, go to properties, Member of & then click add. Then type domain then check names and add to domain admins.
 </p>
 <br />
 
