@@ -130,10 +130,10 @@ Now im going to add a new user Jane Doe in my admin unit. Right click and select
 <br />
 
 <p>
-<img src="https://i.imgur.com/WpO640F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/7MF3OhS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Move to your osTicket "in the browser" & click continue & fillout the fields and write them in notepad we'll need them later. Then install HeidiSQL in the install files in google drive. Click on everything and click launch. In Heidi click new and put Password1 for the password then click open.
+Close your DC-1 VM so we can log into it as the domain admin we just created Janedoe. Open up remote desktop like before and grab the IP Address. So for EX: mydomain\JaneAdmin & the password i created with the janeAdmin account.
 </p>
 <br />
 
@@ -141,7 +141,7 @@ Move to your osTicket "in the browser" & click continue & fillout the fields and
 <img src="https://imgur.com/HulKBrW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In osTicket in the MySQL username put "root" and password is "Password1" or what ever you set yours to. Now we have to create a new database in HeidiSQL called osTicket. 1.) Right click Unammed 2.) Create new 3.) database. 4.) Name it osTicket and click ok
+Now we have to join client 1 to the domain. We have to use the domain controller as a DNS Server. Go back to your client 1 VM. Bring up your settings & go to "about" then go to rename your PC advanced. 
 </p>
 <br />
 
