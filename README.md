@@ -165,7 +165,7 @@ Go to your client 1 & search for CMD (command). Type in "ipconfig -all". Host na
 <img src="https://imgur.com/D6PYZ2K.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now we're going to join client one to the server. Go to settings, about, rename PC Advanced, change, my domain and put mydomain.com. You will get a prompt to put in user name & password. use the mydomain.com\Janeadmin & the password. The client 1 should restart.
+Now we're going to join client one to the server. Go to settings, about, rename PC Advanced, change, my domain and put mydomain.com. You will get a prompt to put in user name & password. use the mydomain.com\Janeadmin & the password. The client 1 should restart. Then log back in.
 </p>
 <br />
 
@@ -173,6 +173,6 @@ Now we're going to join client one to the server. Go to settings, about, rename 
 <img src="https://i.imgur.com/qA2gvJu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now log in with the username and password. You should see this screen when successfully logged in.
+Now lets create a bunch of users. Go to DC-1 remote desktop & open powershell ISE as run as Administrator. Lets create a new file and paste the contents of scripts into it. Go to this repository to copy the script to generate names. Then click run script. https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
 </p>
 <br />
