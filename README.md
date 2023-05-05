@@ -149,23 +149,23 @@ Now we have to join client 1 to the domain. We have to use the domain controller
 <img src="https://imgur.com/6eaaXdD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now we go to our VM's and go to client 1 & set our clients DNS setting to DC private address. Go to DC-1 and find private IP Address and copy it. Go to client -1 and go to netwroking, Click Network interface & go to DNS Servers. Click Custom and paste the new DNS server. This will reset the remote desktop if it doesn't reset it yourself. Go back to client 1 in azure an hit refresh. Then log back in.
+Now we go to our VM's and go to client 1 & set our clients DNS setting to DC private address. Go to DC-1 and find private IP Address and copy it. Go to client -1 and go to netwroking, Click Network interface & go to DNS Servers. Click Custom and paste the new DNS server. This will reset the remote desktop if it doesn't reset it yourself. Go back to client 1 in azure an hit refresh. Then log back in to client 1 with regular user name and pasword.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/jDUyOni.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/tiggzHC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- Your osTicket should look like image above. Then go into your c:\inetpub\wwwroot\osticket\setup. delete the setup folder ONLY.
+Go to your client 1 & search for CMD (command). Type in "ipconfig -all". Host name should be Client 1 and DNS server should be the same as the one you copied and pasted.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/5xrKcma.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/D6PYZ2K.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go to your c:\inetpub\wwwroot\osticket & delete setup folder. Then go to c:\inetpub\wwwroot\osticket\include\ost-config.php right click on file and got to properties, security, advance then go to everyone edit it and only check read and exucute & read. Click ok, then apply, then ok like the image.
+Now we're going to join client one to the server. Go to settings, about, rename PC Advanced, change, my domain and put mydomain.com. You will get a prompt to put in user name & password. use the mydomain.com\Janeadmin & the password. The client 1 should restart.
 </p>
 <br />
 
