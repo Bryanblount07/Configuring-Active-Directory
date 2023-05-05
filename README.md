@@ -138,18 +138,18 @@ Close your DC-1 VM so we can log into it as the domain admin we just created Jan
 <br />
 
 <p>
-<img src="https://imgur.com/HulKBrW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/OPuRt6q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now we have to join client 1 to the domain. We have to use the domain controller as a DNS Server. Go back to your client 1 VM. Bring up your settings & go to "about" then go to rename your PC advanced. 
+Now we have to join client 1 to the domain. We have to use the domain controller as a DNS Server. Go back to your client 1 VM. Bring up your settings & go to "about" then go to rename your PC advanced. Now we have to change IP Address to our DC address. Click change then click on domain & put domain.com. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/WpO640F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/6eaaXdD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- Go back to osTicket browser & go to the MYSQL Database & type in [osticket] put [root] for username & [Password1] or the password you created. Then click install.
+Now we go to our VM's and go to client 1 & set our clients DNS setting to DC private address. Go to DC-1 and find private IP Address and copy it. Go to client -1 and go to netwroking, Click Network interface & go to DNS Servers. Click Custom and paste the new DNS server. This will reset the remote desktop if it doesn't reset it yourself. Go back to client 1 in azure an hit refresh. Then log back in.
 </p>
 <br />
 
