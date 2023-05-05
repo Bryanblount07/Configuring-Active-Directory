@@ -170,7 +170,7 @@ Now we're going to join client one to the server. Go to settings, about, rename 
 <br />
 
 <p>
-<img src="https://i.imgur.com/qA2gvJu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/6m5SS4P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now lets create a bunch of users. Go to DC-1 remote desktop & open powershell ISE as run as Administrator. Lets create a new file and paste the contents of scripts into it. Go to this repository to copy the script to generate names. Then click run script. https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
